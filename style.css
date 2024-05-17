@@ -1,0 +1,190 @@
+body {
+  padding-top: 0px;
+  background: url("https://i.redd.it/fx88qqgw90d41.png") no-repeat center fixed;
+}
+
+/* STYLE HOME (INDEX) */
+.header_home {
+  background: url("https://562fb15d0b.cbaul-cdnwnd.com/1cf854bc422c93011a36a17d8a59d72a/200000001-58c8758c8a/ab94i3q4agk21.jpg?ph=562fb15d0b");
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+.section_home {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.h1_home {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.h2_home {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.p_home {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 25px;
+}
+.ul_home {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.li_home {
+  margin-bottom: 10px;
+}
+#download a {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.gallery-item img {
+  max-width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* STYLE BANNERS */
+#h1_bannersId {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+#bannerData {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bannerCard {
+  border: 4px solid white;
+  border-radius: 15px;
+  margin: 85px;
+  padding: 10px;
+  width: 300px;
+  height: 500px;
+  background: url("https://assetsio.reedpopcdn.com/fortnite-llama-locations-where-to-increase-your-chances-of-finding-supply-llamas-1532604250981.jpg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp");
+}
+.h1_banners {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* STYLE CONTACTS */
+#form_contact {
+  max-width: 400px;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+#contact_id_label {
+  display: block;
+  margin-bottom: 8px;
+}
+#contact_id_input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+#textarea_contact {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+#button_contact {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+#h_contact {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+/* STYLE MAP */
+#mapContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+#mapTitle {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+#mapImage {
+  width: 35%;
+  height: auto;
+  border: 1px solid white;
+  border-width: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+#mapImage:hover {
+  transform: scale(1.1);
+}
+
+/* STYLE NEWS */
+#newsImage {
+  width: 62%;
+  height: auto;
+  border: 1px solid white;
+  border-width: 7px;
+  transition: transform 0.3s ease-in-out;
+}
+#newsImage:hover {
+  transform: scale(1.1);
+}
+#newsContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+#newsTitle {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* STYLE SHOP */
+.h_shop {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+#shop_title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
